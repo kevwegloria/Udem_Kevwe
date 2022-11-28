@@ -1,0 +1,733 @@
+    @import url(//db.onlinewebfonts.com/c/27cb2381f8e348c531e19a16b9921082?family=Suisse+Works+Bold);
+    @font-face {
+        font-family: "Suisse Works Bold";
+        src: url("//db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.eot");
+        src: url("//db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.woff") format("woff"), url("//db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.svg#Suisse Works Bold") format("svg");
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    nav a {
+        color: #1c1d1f;
+        font-size: 14px;
+        margin-top: 9px;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        color: #401b9c;
+    }
+    
+    .search-container input {
+        width: 550px;
+        padding: 14px 13px;
+        border-radius: 20px;
+        color: 14px;
+        position: relative;
+        border: 1px solid #1c1d1f;
+        background-color: #f7f9fa;
+    }
+    
+    .search-container i {
+        position: absolute;
+        left: 16.5%;
+        top: 18.6%;
+        color: #6e7a8d;
+    }
+    
+    .log {
+        padding: 2px 20px;
+        background-color: white;
+        border: 1px solid #1c1d1f;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .log:hover {
+        background-color: #f7f9fa;
+    }
+    
+    .sign {
+        padding: 2px 20px;
+        background-color: #1c1d1f;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .globe {
+        padding: 2px 10px;
+        border: 1px solid #1c1d1f;
+        background-color: white;
+    }
+    
+    .top {
+        background-color: #eceb98;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .top1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+    }
+    
+    .top2 h4 {
+        font-size: 19px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    /* .top1 p {
+        margin-right: 200px;
+    } */
+    
+    .top1 a {
+        color: #1c1d1f;
+        text-decoration: none;
+    }
+    
+    .top1 i {
+        font-size: 16px;
+    }
+    
+    .top3 {
+        position: absolute;
+        left: 98%;
+        top: 25%;
+    }
+    
+    .sec1 {
+        position: relative;
+    }
+    
+    .sec1 img {
+        width: 100%;
+    }
+    
+    .header {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        border: 2px solid white;
+        width: 450px;
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .header h3 {
+        font-size: 32px;
+        font-family: "Suisse Works Bold";
+        font-weight: 700;
+    }
+    
+    .header p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 19px;
+        color: #1c1d1f;
+        width: 350px;
+        font-weight: 400;
+    }
+    
+    .sec2 {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    
+    .sec2head {
+        padding-left: 30px;
+    }
+    
+    .sec2head h3 {
+        font-family: "Suisse Works Bold";
+        color: #1c1d1f;
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+    
+    .sec2head p {
+        font-size: 20px;
+        padding-bottom: 20px;
+        color: #1c1d1f;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sec2body1 {
+        padding-bottom: 10px;
+    }
+    
+    .sec2body1 a {
+        color: #6a6f73;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        padding-left: 27px;
+        cursor: pointer;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sec2body1 a:hover {
+        color: #1c1d1f;
+        cursor: pointer;
+    }
+    
+    .sec2body2 {
+        border: 1px solid #d1d7dc;
+        max-width: 96%;
+        padding-top: 40px;
+        margin: auto;
+    }
+    
+    .sec2text {
+        padding-left: 30px;
+        padding-bottom: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sec2text h4 {
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 20px;
+        color: #1c1d1f;
+    }
+    
+    .sec2text p {
+        width: 800px;
+        font-size: 16px;
+        padding-bottom: 15px;
+        color: #1c1d1f;
+    }
+    
+    .sec2text button {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 8px 11px;
+        font-size: 14px;
+        border: 1px solid #1c1d1f;
+        background-color: transparent;
+        cursor: pointer;
+        color: #1c1d1f;
+        font-weight: 700;
+    }
+    
+    .sec2text button:hover {
+        background-color: #f7f9fa;
+    }
+    
+    .sec2card img:hover {
+        filter: brightness(80%);
+    }
+    
+    .sec2card {
+        /* border: 2px solid green; */
+        height: 300px;
+        width: 235px;
+        cursor: pointer;
+    }
+    
+    .sec2text1 {
+        display: flex;
+        position: relative;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 12px;
+        justify-content: center;
+        gap: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sec2card h5 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .sec2card p {
+        font-size: 12px;
+        color: #6e7a8d;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    
+    .sec2star i {
+        font-size: 12px;
+    }
+    
+    .sec2num p {
+        color: #b6690e;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    
+    .sec2rate {
+        display: flex;
+        gap: 5px;
+    }
+    
+    .sec2card button {
+        background-color: #eceb98;
+        margin-top: 10px;
+        border: none;
+        padding: 3px 6px;
+        font-weight: 700;
+        color: #485741;
+        font-size: 11px;
+    }
+    
+    .sec2text1 span {
+        color: #6e7a8d;
+        font-weight: 400;
+        text-decoration: line-through;
+        padding-left: 3px;
+    }
+    
+    .sec2point {
+        position: absolute;
+        left: 95.5%;
+        top: 15%;
+    }
+    
+    .sec2point i {
+        color: white;
+        font-size: 30px;
+        display: inline-block;
+        border-radius: 100%;
+        border: none;
+        background-color: #1c1d1f;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
+    .sec3 {
+        background-color: #f7f9fa;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 30px;
+        padding-right: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sec3 h5 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    .sec3a {
+        display: flex;
+    }
+    
+    .sec3b {
+        display: flex;
+    }
+    
+    .sec3c {
+        display: flex;
+    }
+    
+    .sec3a h5 {
+        width: 250px;
+        margin-left: 15px;
+    }
+    
+    .sec3b h5 {
+        width: 300px;
+        margin-left: 15px;
+    }
+    
+    .sec3c h5 {
+        width: 300px;
+        margin-left: 15px;
+    }
+    
+    .sec3a i {
+        color: #1c1d1f;
+        font-size: 13px;
+        /* display: inline-block; */
+        border-radius: 100%;
+        border: none;
+        background-color: #d1d7dc;
+        padding: 15px 16px;
+        cursor: pointer;
+    }
+    
+    .sec3b i {
+        color: #1c1d1f;
+        font-size: 14px;
+        display: inline-block;
+        border-radius: 100%;
+        border: none;
+        background-color: #d1d7dc;
+        padding: 15px 16px;
+        cursor: pointer;
+    }
+    
+    .sec3c i {
+        color: #1c1d1f;
+        font-size: 20px;
+        display: inline-block;
+        border-radius: 100%;
+        border: none;
+        background-color: #d1d7dc;
+        padding: 12px 10px;
+        cursor: pointer;
+    }
+    
+    .sec4 {
+        padding-bottom: 100px;
+        padding-top: 60px;
+    }
+    /* .sec4 img {
+    height: 130px;
+} */
+    
+    .sec4head h4 {
+        font-size: 24px;
+        color: #1c1d1f;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .sec4body {
+        display: flex;
+        padding-left: 30px;
+        position: relative;
+        gap: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sec4card img:hover {
+        filter: brightness(80%);
+    }
+    
+    .sec4card {
+        max-height: 300px;
+        cursor: pointer;
+    }
+    
+    .sec4point {
+        position: absolute;
+        left: 95.5%;
+        top: 17%;
+    }
+    
+    .sec4point i {
+        color: white;
+        font-size: 30px;
+        display: inline-block;
+        border-radius: 100%;
+        border: none;
+        background-color: #1c1d1f;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
+    .sec4 h5 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .sec4card p {
+        font-size: 12px;
+        color: #6e7a8d;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    
+    .checked {
+        color: #e59819;
+    }
+    
+    .sec4star i {
+        font-size: 12px;
+    }
+    
+    .sec4num p {
+        color: #b6690e;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    
+    .sec4rate {
+        display: flex;
+        gap: 5px;
+    }
+    
+    .sec4card button {
+        background-color: #eceb98;
+        margin-top: 10px;
+        border: none;
+        padding: 3px 6px;
+        font-weight: 700;
+        color: #485741;
+        font-size: 11px;
+    }
+    
+    .sec4body span {
+        color: #6e7a8d;
+        font-weight: 400;
+        text-decoration: line-through;
+        padding-left: 3px;
+    }
+    
+    .sec5 {
+        background-color: #f7f9fa;
+        padding-top: 50px;
+        padding-bottom: 65px;
+        padding-left: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sec5head h4 {
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    
+    .sec5body {
+        display: flex;
+        gap: 190px;
+    }
+    
+    .sec5body h5 {
+        font-size: 19px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    
+    .sec5body a {
+        font-size: 16px;
+        font-weight: 700;
+        color: #5624d0;
+        cursor: pointer;
+    }
+    
+    .sec5body p {
+        font-size: 14px;
+        padding-top: 10px;
+        color: #6e7a8d;
+        padding-bottom: 20px;
+    }
+    
+    .sec5 button {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 8px 11px;
+        font-size: 14px;
+        border: 1px solid #1c1d1f;
+        background-color: transparent;
+        cursor: pointer;
+        color: #1c1d1f;
+        font-weight: 700;
+    }
+    
+    .sec5 button:hover {
+        background-color: #d1d7dc;
+    }
+    
+    .sec6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 92px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    
+    .sec6text h3 {
+        width: 350px;
+        font-size: 32px;
+        font-family: "Suisse Works Bold";
+        padding-bottom: 10px;
+    }
+    
+    .sec6text p {
+        width: 400px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+    }
+    
+    .sec6text button {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 12px 10px;
+        font-size: 16px;
+        background-color: #1c1d1f;
+        cursor: pointer;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .sec7 {
+        background-color: #f7f9fa;
+        padding-top: 30px;
+    }
+    
+    .sec7 h4 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #1c1d1f;
+        text-align: center;
+        font-family: "Suisse Works Bold";
+    }
+    
+    .sec7img {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 27px;
+    }
+    
+    .sec7 p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #1c1d1f;
+        text-align: center;
+        padding-top: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sec8 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 92px;
+        padding-bottom: 70px;
+        padding-top: 90px;
+    }
+    
+    .sec8text img {
+        height: 35px;
+    }
+    
+    .sec8text p {
+        width: 390px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+    }
+    
+    .sec8text button {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 12px 10px;
+        font-size: 16px;
+        background-color: #1c1d1f;
+        cursor: pointer;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .sec9 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 92px;
+        padding-bottom: 90px;
+    }
+    
+    .sec9text h3 {
+        width: 350px;
+        font-size: 32px;
+        font-family: "Suisse Works Bold";
+        padding-bottom: 10px;
+    }
+    
+    .sec9text p {
+        width: 400px;
+        font-size: 19px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-bottom: 15px;
+    }
+    
+    .sec9text button {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 12px 10px;
+        font-size: 16px;
+        background-color: #1c1d1f;
+        cursor: pointer;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .sec10 {
+        background-color: #1c1d1f;
+        display: flex;
+        padding-top: 30px;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        padding-left: 45px;
+        padding-right: 45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sec10text {
+        display: flex;
+        gap: 130px;
+    }
+    
+    .sec10text a {
+        line-height: 27px;
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .sec10text a:hover {
+        text-decoration: underline;
+    }
+    
+    .sec10lang button {
+        padding: 8px 16px;
+        padding-right: 45px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        font-size: 16px;
+    }
+    
+    footer {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        background-color: #1c1d1f;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 45px;
+        padding-right: 45px;
+        color: white;
+    }
+    
+    footer img {
+        height: 35px;
+    }
